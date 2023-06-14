@@ -6,6 +6,9 @@ module.exports = {
       fontFamily: {
         dmSans: ["DM Sans", "sans-serif"],
       },
+      colors: {
+        "custom-purple": "#3D00B7",
+      },
     },
   },
   plugins: [],
