@@ -4,6 +4,8 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     screens: {
+      xsm: "542px",
+
       sm: "640px",
 
       md: "768px",
@@ -16,7 +18,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'nft': "url('/src/assets/images/unsplash_E8Ufcyxz514.svg')",
+        nft: "url('/src/assets/images/unsplash_E8Ufcyxz514.svg')",
       },
       fontFamily: {
         dmSans: ["DM Sans", "sans-serif"],
