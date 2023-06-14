@@ -9,8 +9,8 @@ import { FaEthereum } from "react-icons/fa";
 
 function HeroSection() {
   return (
-    <div className="md:px-[120px] grid grid-cols-2 gap-24 md:pt-[72px]">
-      <div className="flex flex-col ">
+    <div className="2xl:px-[120px] grid lg:grid-cols-2 grid-rows-2 lg:gap-24 gap-12 md:pt-[72px] lg:px-12  px-6">
+      <div className="flex flex-col text-center lg:text-left">
         <h1 className="uppercase font-bhSans md:text-4xl mb-6">
           Discover, and collect Digital Art NFTs
         </h1>
@@ -18,7 +18,7 @@ function HeroSection() {
           Digital marketplace for crypto collectibles and non-fungible tokens
           (NFTs). Buy, Sell, and discover exclusive digital assets.
         </p>
-        <div className="flex flex-col relative">
+        <div className="flex flex-col relative items-center lg:items-start">
           <a
             href=""
             className="bg-custom-purple text-white md:py-5 md:px-10 md:rounded-full text-xl w-fit mb-8"
@@ -42,39 +42,41 @@ function HeroSection() {
           <img
             src={Dot}
             alt="dot"
-            className="w-fit absolute top-0 -left-10 -z-10"
+            className="w-fit absolute top-0 lg:-left-10 -z-10"
           />
         </div>
       </div>
-      <div className=" relative flex items-center bg-nft bg-no-repeat w-[400px] h-[440px]">
-        <div className="h-full w-full flex flex-col justify-between md:px-7 md: pt-6">
-          <div>
-            <span className="md:text-3xl md:mb-2 block text-white">
-              Abstr Gradient NFT
-            </span>
-            <div className="flex flex-row items-center">
-              <img src={Human} alt="" className="md:pr-4" />
-              <span className="text-white md:text-xl">Arkhan17</span>
-            </div>
-          </div>
-          <div className="flex w-full justify-between mb-6 border-2 border-transparent backdrop-blur-xl	 rounded-lg bg-white/20">
-            <div className="md:pl-7 md:py-3">
-              <span className="text-white text-xs">Current Bid</span>
-              <div className="flex items-center">
-                <FaEthereum className="text-white md:mr-3 md:text-xl" />
-                <span className="text-white md:text-base">0.25 ETH</span>
+      <div className="m-auto lg:m-0">
+        <div className=" relative flex items-center bg-nft bg-no-repeat w-[400px] h-[440px]">
+          <div className="h-full w-full flex flex-col justify-between md:px-7 md: pt-6">
+            <div>
+              <span className="md:text-3xl md:mb-2 block text-white">
+                Abstr Gradient NFT
+              </span>
+              <div className="flex flex-row items-center">
+                <img src={Human} alt="" className="md:pr-4" />
+                <span className="text-white md:text-xl">Arkhan17</span>
               </div>
             </div>
-            <div className="md:pr-7 md:py-3">
-              <span className="text-white text-xs">Ends in</span>
-              <div className="flex items-center">
-                <span className="text-white md:text-base">12h 43m 42s</span>
+            <div className="flex w-full justify-between mb-6 border-2 border-transparent backdrop-blur-xl	 rounded-lg bg-white/20">
+              <div className="md:pl-7 md:py-3">
+                <span className="text-white text-xs">Current Bid</span>
+                <div className="flex items-center">
+                  <FaEthereum className="text-white md:mr-3 md:text-xl" />
+                  <span className="text-white md:text-base">0.25 ETH</span>
+                </div>
+              </div>
+              <div className="md:pr-7 md:py-3">
+                <span className="text-white text-xs">Ends in</span>
+                <div className="flex items-center">
+                  <span className="text-white md:text-base">12h 43m 42s</span>
+                </div>
               </div>
             </div>
           </div>
+          <img src={Nft2} alt="nft" className="-z-20 absolute -right-9" />
+          <img src={Nft3} alt="nft" className="-z-30 absolute -right-16" />
         </div>
-        <img src={Nft2} alt="nft" className="-z-20 absolute -right-9" />
-        <img src={Nft3} alt="nft" className="-z-30 absolute -right-16" />
       </div>
     </div>
   );
