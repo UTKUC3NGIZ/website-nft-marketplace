@@ -9,7 +9,7 @@ import { FaEthereum } from "react-icons/fa";
 
 function HeroSection() {
   return (
-    <div className="2xl:px-[120px] grid lg:grid-cols-2 xsm:grid-rows-2 grid-rows-none lg:grid-rows-none lg:gap-24 gap-0 xsm:pt-[72px] pt-[42px] lg:px-12  px-6">
+    <div className="2xl:px-[120px] grid lg:grid-cols-2 xsm:grid-rows-2 grid-rows-none lg:grid-rows-none lg:gap-24 gap-0 xsm:py-[72px] py-[42px] lg:px-12  px-6">
       <div className="flex flex-col text-center lg:text-left">
         <h1 className="uppercase font-bhSans xsm:text-4xl text-2xl mb-6">
           Discover, and collect Digital Art NFTs
