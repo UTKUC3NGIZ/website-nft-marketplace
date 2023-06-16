@@ -14,7 +14,7 @@ function App() {
       <Hero />
       <Features />
       <Offer />
-      {/* <Collection /> */}
+      <Collection />
       {/* <Info /> */}
       <List />
       <Footer />
