@@ -8,11 +8,11 @@ function Collection() {
       <h2 className="font-bhSans text-3xl uppercase mb-14">
         Collection Featured NFTs
       </h2>
-      <div className="grid grid-cols-3 gap-8">
-        <div className="flex flex-col">
+      <div className="grid lg:grid-cols-3 grid-rows-1 lg:gap-8 gap-20 justify-items-center">
+        <div className="flex flex-col w-3/5 lg:w-full">
           <div className="flex flex-row">
             <img src={Bignft} alt="" className="w-[75%]" />
-            <div className="flex flex-col justify-between pl-2 ">
+            <div className="flex flex-col justify-between pl-2 w-[25%] ">
               <img src={Bignft} alt="" />
               <img src={Bignft} alt="" />
               <img src={Bignft} alt="" />
@@ -40,10 +40,10 @@ function Collection() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col">
+        <div className="flex flex-col w-3/5 lg:w-full ">
           <div className="flex flex-row">
             <img src={Bignft} alt="" className="w-[75%]" />
-            <div className="flex flex-col justify-between pl-2 ">
+            <div className="flex flex-col justify-between pl-2 w-[25%] ">
               <img src={Bignft} alt="" />
               <img src={Bignft} alt="" />
               <img src={Bignft} alt="" />
@@ -71,10 +71,10 @@ function Collection() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col">
+        <div className="flex flex-col w-3/5 lg:w-full">
           <div className="flex flex-row">
             <img src={Bignft} alt="" className="w-[75%]" />
-            <div className="flex flex-col justify-between pl-2 ">
+            <div className="flex flex-col justify-between pl-2 w-[25%] ">
               <img src={Bignft} alt="" />
               <img src={Bignft} alt="" />
               <img src={Bignft} alt="" />
@@ -102,6 +102,7 @@ function Collection() {
             </div>
           </div>
         </div>
+
       </div>
     </div>
   );
