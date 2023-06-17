@@ -32,7 +32,7 @@ function Collection() {
               <div className="flex text-center items-center">
                 <a
                   href=""
-                  className="font-dmSans font-bold text-blue-700 text-xs border-2 border-blue-700 p-2 rounded-3xl "
+                  className="font-dmSans font-bold text-blue-700 text-xs border-2 border-blue-700 p-2 rounded-3xl hover:bg-blue-700 hover:text-white"
                 >
                   Total 54 Items
                 </a>
@@ -63,7 +63,7 @@ function Collection() {
               <div className="flex text-center items-center">
                 <a
                   href=""
-                  className="font-dmSans font-bold text-blue-700 text-xs border-2 border-blue-700 p-2 rounded-3xl "
+                  className="font-dmSans font-bold text-blue-700 text-xs border-2 border-blue-700 p-2 rounded-3xl hover:bg-blue-700 hover:text-white"
                 >
                   Total 54 Items
                 </a>
@@ -94,7 +94,7 @@ function Collection() {
               <div className="flex text-center items-center">
                 <a
                   href=""
-                  className="font-dmSans font-bold text-blue-700 text-xs border-2 border-blue-700 p-2 rounded-3xl "
+                  className="font-dmSans font-bold text-blue-700 text-xs border-2 border-blue-700 p-2 rounded-3xl hover:bg-blue-700 hover:text-white"
                 >
                   Total 54 Items
                 </a>
