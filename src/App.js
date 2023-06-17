@@ -15,7 +15,7 @@ function App() {
       <Features />
       <Offer />
       <Collection />
-      {/* <Info /> */}
+      <Info />
       <List />
       <Footer />
     </>

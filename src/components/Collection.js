@@ -4,7 +4,7 @@ import Human from "../assets/images/Ellipse 95.svg";
 
 function Collection() {
   return (
-    <div className=" 2xl:px-[120px]  lg:px-12  px-6 py-28 ">
+    <div className=" 2xl:px-[120px]  lg:px-12  px-6 py-28 bg-slate-50">
       <h2 className="font-bhSans text-3xl uppercase mb-14">
         Collection Featured NFTs
       </h2>
