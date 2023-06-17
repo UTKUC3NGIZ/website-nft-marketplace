@@ -5,6 +5,9 @@ import eth from "../assets/images/Vector.svg";
 import greeneth from "../assets/images/greeneth.svg";
 import profile from "../assets/images/unsplash_k0rVudBoB4c.svg";
 import check from "../assets/images/check.svg";
+import offer1 from "../assets/images/offer1.svg";
+import offer2 from "../assets/images/offer2.svg";
+import offer3 from "../assets/images/offer3.svg";
 
 function Offer() {
   return (
@@ -37,7 +40,7 @@ function Offer() {
         </div>
         <div className="flex flex-col justify-between xl:border-r-2 cmd:pr-12 items-center cmd:items-start ">
           <div className="flex ">
-            <img src={Bignft} alt="" className="w-36 h-36 pr-5" />
+            <img src={offer1} alt="" className="w-36 h-36 pr-5" />
             <div className="flex flex-col items-start">
               <h5 className="font-dmSans font-bold text-xl">The Futr Abstr</h5>
               <div className="flex items-center">
@@ -61,7 +64,7 @@ function Offer() {
             </div>
           </div>
           <div className="flex ">
-            <img src={Bignft} alt="" className="w-36 h-36 pr-5" />
+            <img src={offer2} alt="" className="w-36 h-36 pr-5" />
             <div className="flex flex-col items-start">
               <h5 className="font-dmSans font-bold text-xl">The Futr Abstr</h5>
               <div className="flex items-center">
@@ -85,7 +88,7 @@ function Offer() {
             </div>
           </div>
           <div className="flex">
-            <img src={Bignft} alt="" className="w-36 h-36 pr-5" />
+            <img src={offer3} alt="" className="w-36 h-36 pr-5" />
             <div className="flex flex-col items-start">
               <h5 className="font-dmSans font-bold text-xl">The Futr Abstr</h5>
               <div className="flex items-center">

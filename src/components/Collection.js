@@ -1,5 +1,9 @@
 import React from "react";
 import Bignft from "../assets/images/unsplash_F56Y7dgrAkc.svg";
+import collection1 from "../assets/images/unsplash_LpbyDENbQQg.svg";
+import offer1 from "../assets/images/offer1.svg";
+import offer2 from "../assets/images/offer2.svg";
+import offer3 from "../assets/images/offer3.svg";
 import Human from "../assets/images/Ellipse 95.svg";
 
 function Collection() {
@@ -13,9 +17,9 @@ function Collection() {
           <div className="flex flex-row">
             <img src={Bignft} alt="" className="w-[75%]" />
             <div className="flex flex-col justify-between pl-2 w-[25%] ">
-              <img src={Bignft} alt="" />
-              <img src={Bignft} alt="" />
-              <img src={Bignft} alt="" />
+              <img src={offer3} alt="" />
+              <img src={offer1} alt="" />
+              <img src={offer2} alt="" />
             </div>
           </div>
           <div className="pt-8">
@@ -44,9 +48,9 @@ function Collection() {
           <div className="flex flex-row">
             <img src={Bignft} alt="" className="w-[75%]" />
             <div className="flex flex-col justify-between pl-2 w-[25%] ">
-              <img src={Bignft} alt="" />
-              <img src={Bignft} alt="" />
-              <img src={Bignft} alt="" />
+              <img src={offer2} alt="" />
+              <img src={offer3} alt="" />
+              <img src={offer1} alt="" />
             </div>
           </div>
           <div className="pt-8">
