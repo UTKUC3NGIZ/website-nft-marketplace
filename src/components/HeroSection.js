@@ -21,7 +21,7 @@ function HeroSection() {
         <div className="flex flex-col relative items-center lg:items-start">
           <a
             href=""
-            className="bg-custom-purple text-white py-5 px-10 rounded-full text-xl w-fit mb-8"
+            className="bg-custom-purple text-white py-5 px-10 rounded-full text-xl w-fit mb-8 hover:bg-opacity-90"
           >
             Explore Now
           </a>
