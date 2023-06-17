@@ -11,7 +11,6 @@ import { useState } from "react";
 
 function App() {
   const [hamburger, setHamburger] = useState(false);
-  console.log(hamburger)
 
   return (
     <div className="max-w-[2180px] 2xl:m-auto">
