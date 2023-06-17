@@ -43,9 +43,9 @@ function Offer() {
                 <img src={Human} alt="" />
                 <div className="flex items-center p-2 mx-2  border-2 border-green-500 text-green-500 rounded-md">
                   <img src={eth} alt="" className="pr-1 w-3" />
-                  <a href="" className="text-xs font-dmSans font-bold">
+                  <span className="text-xs font-dmSans font-bold">
                     0.25 ETH
-                  </a>
+                  </span>
                 </div>
                 <span className="font-dmSans text-sm text-gray-500">
                   1 of 8
@@ -67,9 +67,9 @@ function Offer() {
                 <img src={Human} alt="" />
                 <div className="flex items-center p-2 mx-2  border-2 border-green-500 text-green-500 rounded-md">
                   <img src={eth} alt="" className="pr-1 w-3" />
-                  <a href="" className="text-xs font-dmSans font-bold">
+                  <span className="text-xs font-dmSans font-bold">
                     0.25 ETH
-                  </a>
+                  </span>
                 </div>
                 <span className="font-dmSans text-sm text-gray-500">
                   1 of 8
@@ -91,9 +91,9 @@ function Offer() {
                 <img src={Human} alt="" />
                 <div className="flex items-center p-2 mx-2  border-2 border-green-500 text-green-500 rounded-md">
                   <img src={eth} alt="" className="pr-1 w-3" />
-                  <a href="" className="text-xs font-dmSans font-bold">
+                  <span className="text-xs font-dmSans font-bold">
                     0.25 ETH
-                  </a>
+                  </span>
                 </div>
                 <span className="font-dmSans text-sm text-gray-500">
                   1 of 8
