@@ -1,7 +1,10 @@
 import React from "react";
 import { CiSearch } from "react-icons/ci";
 import { GiHamburgerMenu } from "react-icons/gi";
-function Navbar() {
+function Navbar(props) {
+  const toggleMenu = () => {
+    props.setHamburger(!props.hamburger);
+  };
   return (
     <div className="flex px-6 py-2 justify-between items-center lg:px-12 lg:py-4 2xl:px-[120px] 2xl:py-10 border-b-2">
       <h1 className="uppercase text-custom-purple font-black text-2xl	lg:text-2xl">
@@ -37,13 +40,16 @@ function Navbar() {
       </div>
       <div className="hidden md:flex">
         <span className="font-dmSans font-bold text-xs  border-2 border-custom-purple py-1 px-2 rounded-2xl bg-custom-purple text-white mr-1 lg:text-lg lg:rounded-3xl lg:py-2 lg:px-4 2xl:px-8 2xl:mr-3 hover:bg-white hover:text-custom-purple">
-          Upload
+          <a href="">Upload</a>
         </span>
         <span className="font-dmSans font-bold text-xs  border-2 border-custom-purple py-1 px-2 rounded-2xl bg-white text-custom-purple ml-1 lg:text-lg lg:rounded-3xl lg:py-2 lg:px-4 2xl:px-8 2xl:ml-3 hover:bg-custom-purple hover:text-white">
-          Connect Wallet
+          <a href=""> Connect Wallet</a>
         </span>
       </div>
-      <div className="flex items-center text-custom-purple md:hidden">
+      <div
+        className="flex items-center text-custom-purple md:hidden"
+        onClick={toggleMenu}
+      >
         <GiHamburgerMenu />
       </div>
     </div>
