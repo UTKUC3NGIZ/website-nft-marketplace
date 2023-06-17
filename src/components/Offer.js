@@ -2,6 +2,7 @@ import React from "react";
 import Human from "../assets/images/Ellipse 95.svg";
 import Bignft from "../assets/images/unsplash_F56Y7dgrAkc.svg";
 import eth from "../assets/images/Vector.svg";
+import greeneth from "../assets/images/greeneth.svg";
 import profile from "../assets/images/unsplash_k0rVudBoB4c.svg";
 import check from "../assets/images/check.svg";
 
@@ -42,7 +43,7 @@ function Offer() {
               <div className="flex items-center">
                 <img src={Human} alt="" />
                 <div className="flex items-center p-2 mx-2  border-2 border-green-500 text-green-500 rounded-md">
-                  <img src={eth} alt="" className="pr-1 w-3" />
+                  <img src={greeneth} alt="" className="pr-1 w-3" />
                   <span className="text-xs font-dmSans font-bold">
                     0.25 ETH
                   </span>
@@ -66,7 +67,7 @@ function Offer() {
               <div className="flex items-center">
                 <img src={Human} alt="" />
                 <div className="flex items-center p-2 mx-2  border-2 border-green-500 text-green-500 rounded-md">
-                  <img src={eth} alt="" className="pr-1 w-3" />
+                  <img src={greeneth} alt="" className="pr-1 w-3" />
                   <span className="text-xs font-dmSans font-bold">
                     0.25 ETH
                   </span>
@@ -90,7 +91,7 @@ function Offer() {
               <div className="flex items-center">
                 <img src={Human} alt="" />
                 <div className="flex items-center p-2 mx-2  border-2 border-green-500 text-green-500 rounded-md">
-                  <img src={eth} alt="" className="pr-1 w-3" />
+                  <img src={greeneth} alt="" className="pr-1 w-3" />
                   <span className="text-xs font-dmSans font-bold">
                     0.25 ETH
                   </span>

@@ -6,7 +6,7 @@ import human1 from "../assets/images/human2.svg";
 import human2 from "../assets/images/human3.svg";
 import human3 from "../assets/images/human4.svg";
 
-import eth from "../assets/images/Vector.svg";
+import eth from "../assets/images/greeneth.svg";
 
 function List() {
   return (

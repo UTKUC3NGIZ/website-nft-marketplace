@@ -28,40 +28,40 @@ function Footer() {
       <div className="flex justify-between sm:flex-row flex-col items-start text-left">
         <ul className="font-dmSans font-medium mb-10 sm:mb-0">
           <h3 className="font-bold pb-6">Market Place</h3>
-          <li className="mb-2">
+          <li className="mb-2 hover:text-custom-purple">
             <a href="">All NFTs</a>
           </li>
-          <li className="mb-2">
+          <li className="mb-2 hover:text-custom-purple">
             <a href="">New</a>
           </li>
-          <li className="mb-2">
+          <li className="mb-2 hover:text-custom-purple">
             <a href="">Art</a>
           </li>
-          <li className="mb-2">
+          <li className="mb-2 hover:text-custom-purple">
             <a href="">Sports</a>
           </li>
-          <li className="mb-2">
+          <li className="mb-2 hover:text-custom-purple">
             <a href="">Utility</a>
           </li>
-          <li className="mb-2">
+          <li className="mb-2 hover:text-custom-purple">
             <a href="">Music</a>
           </li>
-          <li className="mb-2">
+          <li className="mb-2 hover:text-custom-purple">
             <a href="">Domain Name</a>
           </li>
         </ul>
         <ul className="font-dmSans font-medium mb-10 sm:mb-0">
           <h3 className="font-bold pb-6">My Account</h3>
-          <li className="mb-2">
+          <li className="mb-2 hover:text-custom-purple">
             <a href="">Profile</a>
           </li>
-          <li className="mb-2">
+          <li className="mb-2 hover:text-custom-purple">
             <a href="">Favorite</a>
           </li>
-          <li className="mb-2">
+          <li className="mb-2 hover:text-custom-purple">
             <a href="">My Collections</a>
           </li>
-          <li className="mb-2">
+          <li className="mb-2 hover:text-custom-purple">
             <a href="">Settings</a>
           </li>
         </ul>
@@ -75,11 +75,11 @@ function Footer() {
             <input
               type="mail"
               placeholder="Enter your email address.."
-              className="border-2 w-full border-gray-100 py-5 px-6 rounded-full placeholder:text-gray-400 placeholder:font-dmSans placeholder:font-normal placeholder:text-xs lg:text-base  text-xs"
+              className="border-2 w-full border-gray-100 py-5 px-6 rounded-full placeholder:text-gray-400 placeholder:font-dmSans placeholder:font-normal placeholder:text-xs lg:text-base  text-xs outline-none hover:border-custom-purple focus:border-custom-purple"
             />
             <button
               type="submit"
-              className="absolute border-2 bg-custom-purple text-white xl:py-4 sm:py-3 py-2 xl:px-7 sm:px-5 px-3 text-sm lg:text-lg rounded-full right-2"
+              className="absolute border-2 bg-custom-purple text-white xl:py-4 sm:py-3 py-2 xl:px-7 sm:px-5 px-3 text-sm lg:text-lg rounded-full right-2 hover:bg-white hover:text-custom-purple"
             >
               Subscibe Now
             </button>
