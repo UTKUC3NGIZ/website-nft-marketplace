@@ -2,7 +2,7 @@
 
 <p align="center"><img src="https://socialify.git.ci/UTKUC3NGIZ/website-nft-marketplace/image?font=KoHo&language=1&name=1&owner=1&pattern=Solid&theme=Dark" alt="project-image"></p>
 
-<p id="description">React ile To Do App </p>
+<p id="description">React ve Tailwind ile NFT Pazar Yeri</p>
 
 <h2>🚀 Demo</h2>
 
