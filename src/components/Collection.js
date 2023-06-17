@@ -21,7 +21,7 @@ function Collection() {
           <div className="pt-8">
             <div className="flex justify-between items-end">
               <div>
-                <h3 className="pb-3 font-dmSans font-bold text-xl">
+                <h3 className="pb-3 font-dmSans font-bold xsm:text-xl text-xs ">
                   Amazing Collection
                 </h3>
                 <div className="flex items-center">
@@ -29,10 +29,10 @@ function Collection() {
                   <p className="text-sm font-medium font-dmSans">by Arkhan</p>
                 </div>
               </div>
-              <div>
+              <div className="flex text-center items-center">
                 <a
                   href=""
-                  className="font-dmSans font-bold text-blue-700 text-xs border-2 border-blue-700 p-2 rounded-3xl"
+                  className="font-dmSans font-bold text-blue-700 text-xs border-2 border-blue-700 p-2 rounded-3xl "
                 >
                   Total 54 Items
                 </a>
@@ -52,7 +52,7 @@ function Collection() {
           <div className="pt-8">
             <div className="flex justify-between items-end">
               <div>
-                <h3 className="pb-3 font-dmSans font-bold text-xl">
+                <h3 className="pb-3 font-dmSans font-bold xsm:text-xl text-xs ">
                   Amazing Collection
                 </h3>
                 <div className="flex items-center">
@@ -60,10 +60,10 @@ function Collection() {
                   <p className="text-sm font-medium font-dmSans">by Arkhan</p>
                 </div>
               </div>
-              <div>
+              <div className="flex text-center items-center">
                 <a
                   href=""
-                  className="font-dmSans font-bold text-blue-700 text-xs border-2 border-blue-700 p-2 rounded-3xl"
+                  className="font-dmSans font-bold text-blue-700 text-xs border-2 border-blue-700 p-2 rounded-3xl "
                 >
                   Total 54 Items
                 </a>
@@ -83,7 +83,7 @@ function Collection() {
           <div className="pt-8">
             <div className="flex justify-between items-end">
               <div>
-                <h3 className="pb-3 font-dmSans font-bold text-xl">
+                <h3 className="pb-3 font-dmSans font-bold xsm:text-xl text-xs ">
                   Amazing Collection
                 </h3>
                 <div className="flex items-center">
@@ -91,10 +91,10 @@ function Collection() {
                   <p className="text-sm font-medium font-dmSans">by Arkhan</p>
                 </div>
               </div>
-              <div>
+              <div className="flex text-center items-center">
                 <a
                   href=""
-                  className="font-dmSans font-bold text-blue-700 text-xs border-2 border-blue-700 p-2 rounded-3xl"
+                  className="font-dmSans font-bold text-blue-700 text-xs border-2 border-blue-700 p-2 rounded-3xl "
                 >
                   Total 54 Items
                 </a>
@@ -102,7 +102,6 @@ function Collection() {
             </div>
           </div>
         </div>
-
       </div>
     </div>
   );

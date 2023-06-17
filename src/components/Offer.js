@@ -7,8 +7,8 @@ import check from "../assets/images/check.svg";
 
 function Offer() {
   return (
-    <div className="flex xl:flex-row flex-col 2xl:px-[120px]  lg:px-12  px-6 py-28 items-center">
-      <div className="flex flex-col m-auto xl:mb-0 mb-20 cmd:flex-row">
+    <div className="flex xl:flex-row flex-col 2xl:px-[120px]  lg:px-12  px-6 py-28 items-center 2xl:justify-center">
+      <div className="flex flex-col m-auto 2xl:m-0 xl:mb-0 mb-20 cmd:flex-row">
         <div className="cmd:mr-14 mb-12 cmd:mb-0">
           <img src={Bignft} alt="" className="cmd:pb-8 pb-4" />
           <div className="flex ">

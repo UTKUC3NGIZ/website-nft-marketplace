@@ -46,7 +46,7 @@ function HeroSection() {
           />
         </div>
       </div>
-      <div className="m-auto lg:m-0">
+      <div className="m-auto lg:m-0 2xl:flex 2xl:justify-center">
         <div className=" relative xsm:flex items-center bg-nft bg-no-repeat w-[400px] h-[440px] hidden">
           <div className="h-full w-full flex flex-col justify-between px-7  pt-6">
             <div>

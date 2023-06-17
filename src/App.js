@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <>
+    <div className="max-w-[2180px] 2xl:m-auto">
       <Navbar />
       <Hero />
       <Features />
@@ -18,7 +18,7 @@ function App() {
       <Info />
       <List />
       <Footer />
-    </>
+    </div>
   );
 }
 
