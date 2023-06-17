@@ -34,7 +34,7 @@ function Info() {
           </p>
           <a
             href=""
-            className="font-normal text-xl border-2 py-2 px-4 text-white rounded-full border-custom-purple bg-custom-purple"
+            className="font-normal text-xl border-2 py-2 px-4 text-white rounded-full border-custom-purple bg-custom-purple hover:opacity-90"
           >
             Sign Up Now
           </a>

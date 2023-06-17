@@ -17,43 +17,43 @@ function List() {
           <div className="flex gap-3 text-center flex-wrap justify-start">
             <a
               href=""
-              className="py-3 px-5 border-2 border-transparent bg-gray-100 rounded-full"
+              className="py-3 px-5 border-2 border-transparent bg-gray-100 rounded-full hover:bg-slate-200"
             >
               All Categories
             </a>
             <a
               href=""
-              className="py-3 px-5 border-2 border-transparent bg-gray-100 rounded-full"
+              className="py-3 px-5 border-2 border-transparent bg-gray-100 rounded-full hover:bg-slate-200"
             >
               Art
             </a>
             <a
               href=""
-              className="py-3 px-5 border-2 border-transparent bg-gray-100 rounded-full"
+              className="py-3 px-5 border-2 border-transparent bg-gray-100 rounded-full hover:bg-slate-200"
             >
               Celebrities
             </a>
             <a
               href=""
-              className="py-3 px-5 border-2 border-transparent bg-gray-100 rounded-full"
+              className="py-3 px-5 border-2 border-transparent bg-gray-100 rounded-full hover:bg-slate-200"
             >
               Gaming
             </a>
             <a
               href=""
-              className="py-3 px-5 border-2 border-transparent bg-gray-100 rounded-full"
+              className="py-3 px-5 border-2 border-transparent bg-gray-100 rounded-full hover:bg-slate-200"
             >
               Sport
             </a>
             <a
               href=""
-              className="py-3 px-5 border-2 border-transparent bg-gray-100 rounded-full"
+              className="py-3 px-5 border-2 border-transparent bg-gray-100 rounded-full hover:bg-slate-200"
             >
               Music
             </a>
             <a
               href=""
-              className="py-3 px-5 border-2 border-transparent bg-gray-100 rounded-full"
+              className="py-3 px-5 border-2 border-transparent bg-gray-100 rounded-full hover:bg-slate-200"
             >
               Crypto
             </a>
@@ -61,7 +61,7 @@ function List() {
           <div className=" mt-3 lg:mt-0">
             <a
               href=""
-              className="flex items-center py-3 px-5 border-2 border-transparent bg-gray-100 rounded-full"
+              className="flex items-center py-3 px-5 border-2 border-transparent bg-gray-100 rounded-full hover:bg-slate-200"
             >
               <img src={filter} alt="" className="pr-3" /> All Filters
             </a>
@@ -107,7 +107,7 @@ function List() {
                 </span>
                 <a
                   href=""
-                  className="text-custom-purple text-base font-dmSans font-medium"
+                  className="text-custom-purple text-base font-dmSans font-medium hover:opacity-80"
                 >
                   Place a bid
                 </a>
@@ -151,7 +151,7 @@ function List() {
                 </span>
                 <a
                   href=""
-                  className="text-custom-purple text-base font-dmSans font-medium"
+                  className="text-custom-purple text-base font-dmSans font-medium hover:opacity-80"
                 >
                   Place a bid
                 </a>
@@ -195,7 +195,7 @@ function List() {
                 </span>
                 <a
                   href=""
-                  className="text-custom-purple text-base font-dmSans font-medium"
+                  className="text-custom-purple text-base font-dmSans font-medium hover:opacity-80"
                 >
                   Place a bid
                 </a>
@@ -239,7 +239,7 @@ function List() {
                 </span>
                 <a
                   href=""
-                  className="text-custom-purple text-base font-dmSans font-medium"
+                  className="text-custom-purple text-base font-dmSans font-medium hover:opacity-80"
                 >
                   Place a bid
                 </a>
@@ -283,7 +283,7 @@ function List() {
                 </span>
                 <a
                   href=""
-                  className="text-custom-purple text-base font-dmSans font-medium"
+                  className="text-custom-purple text-base font-dmSans font-medium hover:opacity-80"
                 >
                   Place a bid
                 </a>
@@ -327,7 +327,7 @@ function List() {
                 </span>
                 <a
                   href=""
-                  className="text-custom-purple text-base font-dmSans font-medium"
+                  className="text-custom-purple text-base font-dmSans font-medium hover:opacity-80"
                 >
                   Place a bid
                 </a>
@@ -371,7 +371,7 @@ function List() {
                 </span>
                 <a
                   href=""
-                  className="text-custom-purple text-base font-dmSans font-medium"
+                  className="text-custom-purple text-base font-dmSans font-medium hover:opacity-80"
                 >
                   Place a bid
                 </a>
@@ -415,7 +415,7 @@ function List() {
                 </span>
                 <a
                   href=""
-                  className="text-custom-purple text-base font-dmSans font-medium"
+                  className="text-custom-purple text-base font-dmSans font-medium hover:opacity-80"
                 >
                   Place a bid
                 </a>
@@ -459,7 +459,7 @@ function List() {
                 </span>
                 <a
                   href=""
-                  className="text-custom-purple text-base font-dmSans font-medium"
+                  className="text-custom-purple text-base font-dmSans font-medium hover:opacity-80"
                 >
                   Place a bid
                 </a>
