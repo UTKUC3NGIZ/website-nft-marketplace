@@ -10,7 +10,7 @@ function Collection() {
   return (
     <div className=" 2xl:px-[120px]  lg:px-12  px-6 py-28 bg-slate-50">
       <h2 className="font-bhSans text-3xl uppercase mb-14">
-        Collection Featured NFTs
+        Collection Featured NFT
       </h2>
       <div className="grid lg:grid-cols-3 grid-rows-1 lg:gap-8 gap-20 justify-items-center">
         <div className="flex flex-col w-3/5 lg:w-full">
